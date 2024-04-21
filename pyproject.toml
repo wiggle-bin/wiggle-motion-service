@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wiggle_motion"
+version = "0.0.1"
+authors = [
+  { name="Studio Rabota" },
+]
+description = "WiggleMotion - Track WiggleBin's motion sensor"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.scripts]
+wiggle-motion = "wiggle_motion_service.main:main"
+wiggle-motion-install = "wiggle_motion_service.install:install"
+
+[project.urls]
+"Homepage" = "https://github.com/wiggle-bin/wiggle-motion.git"
