@@ -15,7 +15,9 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
-dependencies = []
+dependencies = [
+  'adafruit-circuitpython-adxl34x'
+]
 
 [project.scripts]
 wiggle-motion = "wiggle_motion_service.main:main"
