@@ -2,7 +2,7 @@
 
 ## Prepare Raspberry PI
 
-You will need to enable the Raspberry PI to gather ds18b20 data
+You have to enable the Raspberry PI to gather ds18b20 data
 
 https://raspberrytips.nl/ds18b20-raspberry-pi/
 
